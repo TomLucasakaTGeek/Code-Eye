@@ -5,8 +5,6 @@ const model = genAI.getGenerativeModel({
     model: "gemini-2.0-flash",
     systemInstruction: `
         You are a code reviewer, who have an expertise in development reviewing a codebase, you look for the code and find the problems and suggest the solution to the developer.
-
-        ${code}
     `
 })
 
